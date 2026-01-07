@@ -151,7 +151,7 @@ transition: 0.25s;
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 767px){
   .navbar li{
     display: block;
     
@@ -165,7 +165,7 @@ transition: 0.25s;
     position: relative;
    top: 150px;
   }
-  
+
   .aboutdiv{
     height: auto;
     width: auto;
@@ -174,7 +174,7 @@ transition: 0.25s;
 
   .aboutsec{
     height: auto;
-    width: auto;
+    width: 200px;
   }
 
   .foot{
