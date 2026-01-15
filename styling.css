@@ -20,7 +20,7 @@
 font-family: sans-serif;
 font-weight: bold;
 list-style: none;
-display: inline-block;
+display: block;
 margin-top: 35px;
 margin-right: 50px;
 font-size: 30px;
@@ -152,10 +152,7 @@ transition: 0.25s;
 
 
 @media (max-width: 767px){
-  .navbar li{
-    display: block;
-    
-  }
+  
 
   .navbar{
     height: 200px;
