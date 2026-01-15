@@ -151,7 +151,23 @@ transition: 0.25s;
 }
 
 
-@media (max-width: 767px){
+/* Example media query for screens smaller than 768px */
+
+@media screen and (max-width: 768px) {
+  .desktop-menu {
+    display: none; /* Hide desktop menu */
+  }
+  .mobile-menu {
+    display: block; /* Show mobile menu */
+  }
+  .column {
+    width: 100%; /* Make columns stack vertically */
+  }
+}
+
+
+
+/*@media (max-width: 767px){
   
 
   .navbar{
@@ -197,4 +213,5 @@ transition: 0.25s;
     position: relative;
     top: 200px;
   }
-}
+
+}*/
