@@ -151,23 +151,11 @@ transition: 0.25s;
 }
 
 
-/* Example media query for screens smaller than 768px */
-
-@media screen and (max-width: 768px) {
-  .desktop-menu {
-    display: none; /* Hide desktop menu */
-  }
-  .mobile-menu {
-    display: block; /* Show mobile menu */
-  }
-  .column {
-    width: 100%; /* Make columns stack vertically */
-  }
-}
 
 
 
-/*@media (max-width: 767px){
+
+@media (max-width: 767px){
   
 
   .navbar{
@@ -191,7 +179,6 @@ transition: 0.25s;
   }
 
   .foot{
-  position: relative;
   top: 100px;
   width: fit-content;
   height: fit-content;
@@ -210,8 +197,12 @@ transition: 0.25s;
   }
 
   article p{
-    position: relative;
     top: 200px;
   }
 
-}*/
+  .mail{
+    
+  }
+
+}
+
