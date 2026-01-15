@@ -179,7 +179,6 @@ transition: 0.25s;
   }
 
   .foot{
-  top: 100px;
   width: fit-content;
   height: fit-content;
   margin: none;
@@ -192,17 +191,17 @@ transition: 0.25s;
   }
 
   .articlehead{
-    position:relative;
-    top: 200px;
+    margin: none;
   }
 
   article p{
-    top: 200px;
+    margin: none;
   }
 
   .mail{
-    
+    margin: none;
   }
 
 }
+
 
